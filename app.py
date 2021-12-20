@@ -6,6 +6,7 @@ import seaborn as sns
 import joblib
 
 from eda_app import run_eda_app
+from ml_app import run_ml_app
 
 def main():
     menu = ['홈','데이터분석','인공지능']
@@ -17,7 +18,7 @@ def main():
     elif choice == '데이터분석':
         run_eda_app()
     elif choice == '인공지능':
-        pass
+        run_ml_app()
 
 
 if __name__ == '__main__':
