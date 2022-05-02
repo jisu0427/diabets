@@ -14,10 +14,10 @@ def run_ml_app():
     # Insulin	BMI	DiabetesPedigreeFunction	Age
 
     pregnancies = st.number_input('임신횟수', min_value=0)
-    glucose = st.number_input('Glucose', min_value=0)
-    pressure = st.number_input('BloodPressure', min_value=0)
+    glucose = st.number_input('Glucose(포도당)', min_value=0)
+    pressure = st.number_input('BloodPressure(혈압)', min_value=0)
     skinthickness = st.number_input('SkinThickness', min_value=0)
-    insulin = st.number_input('Insulin', min_value=0)    
+    insulin = st.number_input('Insulin(인슐린)', min_value=0)    
     bmi = st.number_input('BMI', min_value=0.0, format='%.1f')
     diabetesPedigreeFunction = st.number_input('DiabetesPedigreeFunction', min_value=0.0, format='%.2f')
     age = st.number_input('AGE',min_value=0)
